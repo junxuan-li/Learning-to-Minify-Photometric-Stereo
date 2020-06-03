@@ -26,7 +26,9 @@ With GPU: NVIDIA GeForce GTX 1080 Ti.
 
 To test the models on DiLiGenT main dataset
 
-```python ps_cnn_test.py```
+```
+python ps_cnn_test.py
+```
 
 If you want to test the model in a different dataset, change the `test_data_path` in `ps_cnn_test.py` to the target dataset. The code will regenerate a pre-processed observation map for the testing later.
 
